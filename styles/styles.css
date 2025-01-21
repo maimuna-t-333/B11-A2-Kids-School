@@ -9,7 +9,7 @@
 /* nav style  */
 
 .nav-title{
-    width: 1660px;
+    width: 1160px;
     display: flex;
     justify-content: space-between;
     padding: 20px 140px;
@@ -63,8 +63,61 @@
     font-size: 1.25rem;
     border: none;
 }
+.nav-section{
+    width: 1160px;
+    height: 62px;
+}
 
 
+/* banner style  */
+.banner-heading{
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    
+}
+.color-1{
+    color: orange;
+}
+.color-2{
+    color: skyblue;
+}
+.banner-description{
+    font-size: 1.25 rem;
+    font-weight: 400;
+    
+    padding: 10px 0px 10px 0px;
+   
+}
+.banner-btn{
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 47px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: none;
+}
+.banner-details{
+    width:640px;
+    height: 331px;
+    padding: 122px 0px 122px 0px;
+    
+}
+.banner-img{
+    width: 468.61px;
+    height: 575px;
+}
+.banner-flex{
+    display: flex;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    height: 575px;
+    padding: 20px 140px 20px 140px;
+}
 
 @media  screen and (max-width:576px) {
     .nav-section{
