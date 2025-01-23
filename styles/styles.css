@@ -174,6 +174,7 @@
     font-weight: 700;
     padding-left: 489px;
     padding-bottom: 80px;
+    
    
 }
 .about-card{
@@ -181,11 +182,12 @@
     height: 879px;
     gap:80px;
     padding: 60px;
+    
 }
-.section{
-   display: flex;
-   padding-left: 150px;
-   gap: 20px;
+.card-section{
+   display:flex;
+   padding-left:150px;
+   gap:20px;
 }
 #card-bg-image{
     background-image: url(../assets/bg.png);
@@ -194,23 +196,26 @@
     height: 879px;
 }
 /* card style part-2  */
-.about-card{
-    width: 1400px;
+.About-card-details{
+    width: 1382px;
     height: 1020px;
+    /* margin: 0 auto; */
 }
 #card-bg-image-1{
     background-image: url(../assets/bg.png);
     background-image: linear-gradient(white,rgba(255, 214, 142, 1));
+    
 }
 .our-story{
     font-size: 2.8rem;
     font-weight: 700;
     text-align: center;
-    padding-right: 350px;
+    
     padding-bottom: 50px;
+    
 }
 .medium-card{
-    width: 500px;
+    width: 530px;
     height: 330px;  
 }
 .medium-card-title{
@@ -225,8 +230,11 @@
     padding: 0px 68px 34px 38px;
 }
 .div-1,.div{
-    background-color: white;
-    
+    background-color: white; 
+}
+.div-1{
+    border-radius: 10px;
+   
 }
 .div-img{
     width: 290px;
@@ -242,15 +250,20 @@
 .div{
     width: 290px;
     height: 301px;
-    border-radius: 16px;  
+    border-radius: 16px;
+    
 }
 .flex{
     display: grid;
     grid-template-columns: repeat(2,1fr); 
+    gap: 10px;
 }
 .story-flex{
     display:flex;
+    gap: 18px;
+    padding-left: 100px;
 }
+
 
 /* footer style */
 .footer-bg{
@@ -297,6 +310,10 @@
 .h4{
     font-size: 1.5rem;
     font-weight:700;
+}
+.btn-card{
+    padding-left: 600px;
+    padding-top: 100px;
 }
 
 
@@ -355,11 +372,15 @@
     }
     .btn{
         align-content: center;
-        padding-left: 80px;
+        padding-left: 100px;
+    }
+    .banner-btn{
+        
     }
     .card-title{
-        font-size: 1.625rem;
+        font-size: 1.5rem;
         padding: 40px 64px 40px 64px;
+        width: 261px;
     }
     .card-image{
         width: 92px;
@@ -383,13 +404,15 @@
         gap:12px;
         padding-bottom:80px;
     }
-    .section{
+    
+    .card-section{
         width: 357px;
         height: 990px;
         display: block;
        padding-left: 15px;
-
-        
+       
+       
+      
     }
     #card-bg-image{
         background-image: url(../assets/bg.png);
@@ -403,7 +426,7 @@
         gap: 5px;
         
         width: 390px;
-        height: 624px;
+        height: 700px;
         padding: 60px 10px 60px 10px;
         
     }
@@ -431,5 +454,72 @@
     .div-1{
         display: none;
     }
+    .About-card-details{
+        width: 390px;
+        height: 700px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        
+    }
+    .div{
+        width: 173px;
+        height: 150px;
+        /* padding-top: 20px; */
+        padding-bottom: 10px;
+        margin: 0 auto;
+        grid-template-rows: repeat(1,2fr); 
+        gap: 10px;
+    }
+    .div-img{
+        width: 173px;
+        height: 105px;
+        
+    }
+    .our-story{
+        font-size: 1.625rem;
+        padding-bottom: 20px;
+    }
+    .div-title{
+        font-size: 0.5rem;
+        font-weight: 700;
+        line-height:15px;
+        padding: 0px 20px 10px 20px;
+     }
+     .story-flex{
+        padding-left: 0;
+        
+     }
+     .btn-card{
+        padding: 0;
+     }
+     .btn-primary{
+        font-size: 1rem;
+     }
     
+     .card-info{
+        height: 700px;
+     align-content: end;
+     justify-content: end;   
+    padding: 100px 20px 0px 20px;
+    
+     }
+     .card-3{
+    
+        width: 357px;
+        height: 321px;
+        border-radius: 12px;
+        gap:12px;
+        display: contents;
+    }
+    .banner-btn{
+        height: 30px;
+        width: 150px;
+        border-radius: 12px;
+        font-size: 0.5rem;
+    }
+    .btn-card{
+        padding-top: 10px;
+        padding-left: 110px;
+    }
+
 }
